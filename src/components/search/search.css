@@ -1,0 +1,46 @@
+.form {
+  display: grid;
+  gap: 0.5rem;
+  width: max-content;
+}
+
+.form-input label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.form-input input,
+.form-input select {
+  display: inline-block;
+  width: 200px;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.8rem;
+}
+
+.form-input select {
+  width: 215px;
+}
+
+.btn {
+  padding: 0.6rem;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  width: 367px;
+}
+
+.error {
+  color: red;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #f2f0f0;
+}
